@@ -1,4 +1,4 @@
-update=Wed 08 Apr 2015 08:54:21 PM EDT
+update=Wed 13 May 2015 10:32:32 PM EDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=../libraries
+LibDir=../libraries;/home/sophia/Desktop/WatSat/KiCADFiles/libraries
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -90,3 +90,4 @@ LibName33=MCP6231
 LibName34=LM20
 LibName35=HMC5883L
 LibName36=CD74HC4067
+LibName37=HMC1051
