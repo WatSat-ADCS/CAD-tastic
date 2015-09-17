@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:SensorBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -37,7 +37,7 @@ LIBS:HMC5883L
 LIBS:CD74HC4067
 LIBS:HMC1051
 LIBS:SensorBoard-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -129,7 +129,7 @@ F 3 "DOCUMENTATION" H 6350 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-SensorBoard C2
 U 1 1 5552AD2C
 P 6350 7050
 F 0 "C2" H 6350 7150 40  0000 L CNN
@@ -140,7 +140,7 @@ F 3 "~" H 6350 7050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-SensorBoard C1
 U 1 1 5552AD39
 P 3000 6100
 F 0 "C1" H 3000 6200 40  0000 L CNN
@@ -151,7 +151,7 @@ F 3 "~" H 3000 6100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-SensorBoard R1
 U 1 1 5552AD43
 P 3050 6500
 F 0 "R1" V 3130 6500 40  0000 C CNN
@@ -162,7 +162,7 @@ F 3 "~" H 3050 6500 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-SensorBoard R3
 U 1 1 5552AD50
 P 6350 7400
 F 0 "R3" V 6430 7400 40  0000 C CNN
@@ -173,18 +173,18 @@ F 3 "~" H 6350 7400 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-SensorBoard R4
 U 1 1 5552AD56
-P 8250 6600
-F 0 "R4" V 8330 6600 40  0000 C CNN
-F 1 "0.3" V 8257 6601 40  0000 C CNN
-F 2 "~" V 8180 6600 30  0000 C CNN
-F 3 "~" H 8250 6600 30  0000 C CNN
-	1    8250 6600
+P 7950 6200
+F 0 "R4" V 8030 6200 40  0000 C CNN
+F 1 "0.3" V 7957 6201 40  0000 C CNN
+F 2 "~" V 7880 6200 30  0000 C CNN
+F 3 "~" H 7950 6200 30  0000 C CNN
+	1    7950 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-SensorBoard R2
 U 1 1 5552AD5C
 P 4350 5350
 F 0 "R2" V 4430 5350 40  0000 C CNN
