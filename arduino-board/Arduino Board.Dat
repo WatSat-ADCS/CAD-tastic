@@ -1,0 +1,43 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Arduino Board.PrjPcb|ReportField=ProjectFullPath~C:\Users\Sophia\AppData\Local\Temp\Releases\Snapshot\1\Arduino Board.PrjPcb|ReportField=Title~BOM_PartType For Project [Arduino Board.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~122|ReportField=ReportTime~8:00:38 PM|ReportField=ReportDate~2015-12-02|ReportField=ReportDateTime~2015-12-02 8:00:38 PM|ReportField=OutputName~BOM_PartType|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~|ReportField=CurrentTime~|ReportField=Date~2015-11-11 8:06:48 PM|ReportField=DocumentFullPathAndName~|ReportField=DocumentName~|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~|ReportField=Organization~|ReportField=ProjectName~|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~Arduino-Pro-Mini|ReportField=DataSourceFileName~Arduino Board.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Sophia\AppData\Local\Temp\Releases\Snapshot\1\Arduino Board.PrjPcb
+ITG-3200|ITG-3200 3-axis gyro, digital output, qfn24 package|3-AXIS_GYRO|QFN-24|ITG-3200|2
+HMC5883L||3-AXIS_MAG|LPCC16|HMC5883L|2
+0.1uF|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C1, C1, C2, C3, C8, C9, C10, C10|0603-CAP|CAP0603-CAP|8
+100 nF|CAP CER 0.1UF 16V 10% X7R 0603|C1, C2, C3, C4|PCB-19299713-1|CMP-19299713-2|4
+100nF|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C2, C2, C3, C3, C4, C4, C14, C14|0402-CAP|CAP0402-CAP|8
+0.22|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C5|0402-CAP|CAP0402-CAP|2
+0.1uF|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C6, C6, C7, C7, C12, C12|0402-CAP|CAP0402-CAP|6
+10nF|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C11|0402-CAP|CAP0402-CAP|2
+2.2nF|CapacitorStandard 0603 ceramic capacitor, and 0.1" leaded capacitor.|C13|0402-CAP|CAP0402-CAP|2
+10uF|Capacitor PolarizedThese are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in electrolytic and tantalum varieties. Always verify the external diameter of the through hole cap, it varies with capacity, voltage, and manufacturer. The EIA devices should be standard.|C13, C19|EIA3216|CAP_POL1206|2
+Green|LEDsStandard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)|D3|0603-LED-ALT1|LED|1
+ARDUINO_SERIAL_PROGRAMPTH||FTDI|1X06|ARDUINO_SERIAL_PROGRAMPTH|1
+4067D|16-channel ANALOG MULTIPLEXER|IC1, IC1, IC2, IC2, IC3, IC3|SO24W|4067D|6
+AVR_SPI|AVR ISP 6 PinThis is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508|J1|2X3|AVR_SPI_PRG_6PTH|1
+FTDI Basic||JP1|1X06|ARDUINO_SERIAL_PROGRAMPTH|1
+1X16_HEADER"||JP1, JP1, JP2, JP2, JP3, JP3|1X16_HEADER|1X16_HEADER"|6
+M02PTH|Header 2Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08233 with associated crimp pins and housings.|JP2, JP2, JP3, JP3|1X02|M02PTH|4
+magnetorquer|Header 4Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115). Molex polarized connector foot print use with SKU : PRT-08231 with associated crimp pins and housings.|JP4|1X04_HEADER|1X04_HEADER"|2
+FIDUCIALUFIDUCIAL|Fiducial Alignment PointsVarious fiducial points for machine vision alignment.|JP5, JP8|MICRO-FIDUCIAL|FIDUCIALUFIDUCIAL|2
+M12PTH|Header 12Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115).|JP6, JP6, JP7, JP7|1X12|M12PTH|4
+Red|LEDsStandard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. 5mm - Spark Fun Electronics SKU : COM-00529 (and others)|LED1|0603-LED-ALT1|LED|1
+TE Connectivity 640445-4|MTA-156 4 Position 3.96 mm Single Row Through-Hole Straight Wire to Board Header|magnetorquer, magnetorquer-arduino|PCB-ri65nbe9iynob6pe1jn9-1|CMP-b6d87d170e53691f-2|2
+LM158AJ|Low Power Dual Operational Amplifier, 8-pin CerDIP|op-amp1, op-amp2, op-amp3, op-amp4|J08A|LM158AJ|4
+8/16/20MHz|ResonatorSmall SMD resonator. This is the itty bitty 10/20MHz resonators with built in caps. CSTCE10M0G55 and CSTCE20M0V53. Footprint for SMD has been used in SFE production for years, and does work okay. 1:1 is an attempt to get larger fillets on the sides so it will be easier to inspect these solders in our AOI machine. The pads have been minimized to match the actual metal under the resonator. To see this relation, it includes an image import of the bottom side of the component. Imported to scale on layer 200.|Q1|RESONATOR-SMD-1:1|RESONATOR1:1|1
+10K|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.|R1|0805|RESISTOR|1
+100 K|Res Thick Film 0805 100K Ohm 1% 1/8W ±100ppm/C Molded SMD Paper T/R|R1, R2, R3, R4, R5, R6, R7, R8|RESC2013X50X30ML20T20|CMP-1857726-3|8
+RESISTOR0603-RES|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH resistors.|R1, R3|0603-RES|RESISTOR0603-RES|2
+4.7k|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.|R2, R2, R3, R3|0805|RESISTOR|4
+10K|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH resistors.|R2, R11|0603-RES|RESISTOR0603-RES|2
+100k|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.|R4, R4, R5, R5, R6, R6, R7, R7, R8, R8, R9, R9, R10, R10, R11, R11|0805|RESISTOR|16
+330|ResistorBasic schematic elements and footprints for 0603, 1206, and PTH resistors.|R6|0603-RES|RESISTOR0603-RES|1
+Reset|Various NO switches- pushbuttons, reed, etc|S1|TACTILE-SWITCH-SMD-ALT01|SWITCH-MOMENTARY-2SMD-ALT01|1
+TAC_SWITCHKSA_SEALED|Momentary SwitchButton commonly used for reset or general input. Spark Fun Electronics SKU : COM-00097|S1|KSA_SEALED_TAC_SWITCH|TAC_SWITCHKSA_SEALED|1
+SOLDERJUMPERNC|Solder JumperStandard SMD solder jumper. Used to automate production. Two varients : Normally Open and Normally Closed are the same, but have different paste layers. NC will have a large amount of paste and should jumper during reflow.|SJ1|SJ_2S|SOLDERJUMPERNC|1
+ATMEGA168||U1|TQFP32-08|ATMEGA168|1
+ATMEGA328||U1|TQFP32-08|ATMEGA168|1
+MIC5205|Voltage Regulator LDOStandard 150mA LDO voltage regulator in SOT-23 layout. Micrel part MIC5205. BP (by-pass) pin is used to lower output noise with 470pF cap.|U2|SOT23-5|V_REG_LDOSMD|1
+8MHz|ResonatorSmall SMD resonator. This is the itty bitty 10/20MHz resonators with built in caps. CSTCE10M0G55 and CSTCE20M0V53. Footprint has been reviewed closely but hasn t been tested yet.'|U$1|RESONATOR|RESONATOR"|1
+LOGO-SFESK|Spark Fun Electronics PCB LogoThis is the standard Spark Fun Electronics PCB logo.|U$1|SFE-LOGO-FLAME|LOGO-SFESK|1
+OP_AMPOPAMP1||U$2, U$2, U$3, U$3|OPAMP|OP_AMPOPAMP1|4
+OSHW-LOGOS|Open Source Hardware Logo This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW|U$3|OSHW-LOGO-S|OSHW-LOGOS|1
+LOGO-SFENEW|Spark Fun Electronics PCB LogoThis is the standard Spark Fun Electronics PCB logo.|U$11|SFE-NEW-WEBLOGO|LOGO-SFENEW|1
